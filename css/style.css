@@ -1502,4 +1502,11 @@ span.glyphicon.glyphicon-phone {
     border-radius: 40%;
     margin: auto;
 }
- 
+.top {
+    right:20px;
+    bottom:0px;
+    position:fixed;
+}
+    .top img {
+    max-width:75px;
+    }
