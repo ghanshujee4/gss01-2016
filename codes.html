@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 Au<!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--end header-section-->
 			<div class="header-banner">
 				<div class="container">
-					<h2>Short Codes</h2>
+					<h2>GSS LOGIN</h2>
 				</div>
 			</div>
 		<!--end header-section-->
@@ -81,36 +81,71 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- container-wrap -->
 			<div class="container">
 				<div class="grid_3 grid_4">
-					<h3 class="hdg">Headings</h3>
+					<h3 class="hdg">Login</h3>
 					<div class="bs-example">
-						<table class="table">
-							<tbody>
-								<tr>
-									<td><h1 id="h1.-bootstrap-heading">h1. Bootstrap heading<a class="anchorjs-link" href="#h1.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h1></td>
-									<td class="type-info">Semibold 36px</td>
-								</tr>
-								<tr>
-									<td><h2 id="h2.-bootstrap-heading">h2. Bootstrap heading<a class="anchorjs-link" href="#h2.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h2></td>
-									<td class="type-info">Semibold 30px</td>
-								</tr>
-								<tr>
-									<td><h3 id="h3.-bootstrap-heading">h3. Bootstrap heading<a class="anchorjs-link" href="#h3.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h3></td>
-									<td class="type-info">Semibold 24px</td>
-								</tr>
-								<tr>
-									<td><h4 id="h4.-bootstrap-heading">h4. Bootstrap heading<a class="anchorjs-link" href="#h4.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h4></td>
-									<td class="type-info">Semibold 18px</td>
-								</tr>
-								<tr>
-									<td><h5 id="h5.-bootstrap-heading">h5. Bootstrap heading<a class="anchorjs-link" href="#h5.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h5></td>
-									<td class="type-info">Semibold 14px</td>
-								</tr>
-								<tr>
-									<td><h6>h6. Bootstrap heading</h6></td>
-									<td class="type-info">Semibold 12px</td>
-								</tr>
-							</tbody>
-						</table>
+                        <script language="javascript">
+function pasuser(form) {
+if (form.id.value=="gss") {
+if (form.pass.value=="Udhaw") {
+location="Dashboard.html"
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+                        </script>
+
+                        <center>
+                            <table bgcolor="white" cellpadding="12" style="background: #728CC6; box-shadow: 5px 5px 5px 5px #4F4F5F; padding: 20px; min-width: 400px; }">
+                                <tr>
+                                    <td colspan="2">
+                                        <center>
+                                            <h1>
+                                                <i>
+                                                    
+                                                    <h3>
+                                                        Login
+                                                        Area
+                                                    </h3>
+                                                </i>
+                                            </h1>
+                                        </center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><h1><i><br /><h3>UserID:</h3></i></h1></td>
+                                    <td>
+                                        <form name="login">
+                                            <input name="id" type="text">
+                                    </td>
+                                </tr>
+                                <div class="clearfix"></div>
+                                <tr>
+                                    <td><h1><i><br /><h3>Password:</h3></i></h1></td>
+                                    <td>
+                                        <input name="pass"
+                                               type="password">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <center>
+                                            <br />
+                                            <input class="btn" type="button" value="Login"
+                                                   onclick="pasuser(this.form)">
+                                        </center>
+                                    </td>
+                                    <td>
+                                        <center>
+                                            <br />
+                                            <input class="btn" type="Reset" value="reset">
+                                         </center>
+                                    </td>
+                                </tr>
+                            </table>
+                        </center> 
 					</div>
 				</div>
 				<div class="grid_3 grid_5">
