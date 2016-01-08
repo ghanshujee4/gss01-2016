@@ -838,6 +838,10 @@ h2.typoh2{
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
+    #hidden_time {
+    z-index:-1 !important;
+    }
+    
 	.grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 		margin-bottom: .5em;
 	}
@@ -1183,7 +1187,7 @@ a.button {
         width: 220px;
     }
     .wow {
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 10px;
 
     }
