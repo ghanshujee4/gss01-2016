@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="77a9b74c-a456-4035-9b12-090d3e283376" name="gss" url="http://www.gsspvtltd.com">
+        <fileTransfer host="www.gsspvtltd.com" port="21" username="webonspot">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -20,22 +20,57 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <script src="js/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="shortcut icon" href="images/Logo1.jpg" type="image/x-icon">
+	<link rel="icon" href="images/Logo1.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/style1.css">
+	<link rel="author" href="https://plus.google.com/u/0/105983066516923168596/posts">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+	<script src="js/bootstrap.js"></script>
 </head>
 <body>
 		<!--start-header-section-->
 	<div class="header">
 		<div class="container">
-				<div class="header-top">
-					<div class="logo">
-						<h1><a href="index.html"><img class="img-responsive" src="images/Logo1.jpg"></a></h1>
+			<div class="header-top">
+				<div class="wow bounceInUp">
+					<div class="col-sm-2">
+						<div class="logo">
+							<div class="span3 wow flip animated" data-wow-duration="5s" data-wow-iteration="40" style="visibility:visible; animation-duratuion:20s; animation-iteration-count:10;  border-radius: 50%;">
+								<h1><a href="index.html"><img class="img-responsive" src="images/Logo1.jpg" alt="gss"></a></h1>
+							</div>
+						</div>
 					</div>
+					<div class="col-sm-8">
+					<div class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
+						<p><img class="img-responsive" src="images/head_line.jpg" style="margin-left: auto; margin-right: auto; height: 70px;"></p>
+					</div>
+				</div>
+				<div class="col-sm-2">
 					<div class="phone">
 						<h5><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> +91-612-2246052 </h5>
-						<a class="contact-left" style="float:right" href="codes.html">Admin Login</a>
+						<a class="glyphicon glyphicon-log-in" style="float:right" href="codes.html">Admin Login</a>
 					</div>
-					<div class="clearfix"></div>
 				</div>
+				<div class="clearfix"></div>
+			</div></div>
 			<div class="header-bottom">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
@@ -73,14 +108,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 		<!--end header-section-->
 			<div class="header-banner">
-				<div class="container">
+				<div class="container" >
 					<h2> about us</h2>
 				</div>
 			</div>
 		<!--end header-section-->
 		<div class="content">
 			<div class="about-section">
-				<div class="container">
+				<div class="container"style="border: 2px solid #61A8A4;box-shadow: 4px 4px 4px 4px;border-radius: 10px;padding-bottom: 35px">
 					<h3>Who We Are</h3>
 					<img src="images/DSCN0014.JPG" class="img-responsive" alt=""/>
 					<h4>Security Guard Training</h4>

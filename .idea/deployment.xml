@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="gss">
+    <serverData>
+      <paths name="gss">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$USER_HOME$/Desktop/New folder (2)" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$USER_HOME$/Desktop/New folder (2)" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
