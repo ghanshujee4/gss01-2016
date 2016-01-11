@@ -1245,7 +1245,7 @@ a.button {
 }
 .feature-grid {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 .feature-grid:nth-child(3) {
     margin-top: 1em;
